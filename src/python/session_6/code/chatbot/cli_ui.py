@@ -5,7 +5,7 @@ def main_bot():
     
     while True:
         user_input=input("user: ").lower()
-        print(user_input)
+    
         responses=get_response(user_input)
         print("chatbot:",responses)
         
